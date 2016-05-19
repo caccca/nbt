@@ -5,13 +5,13 @@ NOTE: accept ports 443 80 150 29561
 #######
 service iptables start
 iptables -I INPUT -p tcp --dport 443 -j ACCEPT
-iptables -I INPUT -p tcp --dport 80 -j ACCEPT
-iptables -I INPUT -p tcp --dport 150 -j ACCEPT
-iptables -I INPUT -p tcp --dport 29651 -j ACCEPT
 iptables -I OUTPUT -p tcp --sport 443 -j ACCEPT
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 iptables -I OUTPUT -p tcp --sport 80 -j ACCEPT
-iptables -I OUTPUT -p tcp --sport 150 -j ACCEPT
-iptables -I OUTPUT -p tcp --sport 29561 -j ACCEPT
+iptables -I INPUT -p udp --dport 150 -j ACCEPT
+iptables -I OUTPUT -p udp --sport 150 -j ACCEPT
+iptables -I OUTPUT -p tcp --sport 22 -j ACCEPT
+iptables -I INPUT -p tcp --dport 22 -j ACCEPT
 service iptables save
 
 
@@ -45,3 +45,20 @@ vi /root/ss.json
 "method":"aes-256-cfb"
 }
 ```
+
+####
+install finalspeed client
+####
+#required:libpcap java
+##ubuntu
+apt-get -y install libpcap-dev
+##centos
+yum -y install libpcap
+
+#install java
+sudo apt-get purge openjdk*
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+sudo java -jar finalspeed_client.jar
