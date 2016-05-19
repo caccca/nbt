@@ -18,3 +18,8 @@ chmod +x post-receive
 #setup git client
 git remote add nbt ssh://root@nanbiantang.top/var/git/nbt
 git remote set-url nbt ssh://root@nanbiantang.top:29561/var/git/nbt
+
+
+#git rollback
+git log --oneline  ##check history(return 7char )
+git reset 
