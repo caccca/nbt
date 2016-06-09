@@ -1,6 +1,10 @@
 html,
 body {
     height: 100%;
+    /*background-color: #d4d7cc;*/
+    /*background-color: #f0ede9;*/
+    font-family: Avenir, 'Lucida Grande', Calibri, 'Trebuchet MS', Helvetica, Arial, 'Hiragino Sans GB', 'WenQuanYi Micro Hei', STHeiti, 'Microsoft Jhenghei', 'Nanum Gothic', sans-serif;
+    font-size: 16px;
 }
 
 .wrap {
