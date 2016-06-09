@@ -1,0 +1,5 @@
+/vendor/*
+/.idea/*
+/frontend/log/*
+/backend/log/*
+/api/log/*
