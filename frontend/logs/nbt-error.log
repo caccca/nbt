@@ -15,3 +15,34 @@
 [Thu May 19 20:08:20.655505 2016] [:error] [pid 8101] [client 127.0.0.1:54177] PHP Warning:  touch(): Unable to create file /var/www/html/nbt/frontend/runtime/debug/index.data because No such file or directory in /var/www/html/nbt/vendor/yiisoft/yii2-debug/LogTarget.php on line 75, referer: http://nbt.cn/index.php?r=site%2Flogin
 [Thu May 19 20:19:10.060089 2016] [:error] [pid 8101] [client 127.0.0.1:54339] PHP Warning:  mkdir(): Permission denied in /home/c/nbt/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 483, referer: http://nbt.cn/index.php?r=site%2Flogin
 [Thu May 19 20:19:18.398185 2016] [:error] [pid 8182] [client 127.0.0.1:54342] PHP Warning:  mkdir(): Permission denied in /home/c/nbt/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 483, referer: http://nbt.cn/index.php?r=site%2Flogin
+[Fri Jun 10 11:50:08.431276 2016] [authz_core:error] [pid 5156:tid 1708] [client 127.0.0.1:56067] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 11:50:48.631883 2016] [authz_core:error] [pid 3220:tid 1708] [client 127.0.0.1:56102] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 11:50:49.930527 2016] [authz_core:error] [pid 3220:tid 1708] [client 127.0.0.1:56102] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:10.025133 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:10.597165 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:11.668227 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:11.936242 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:12.438271 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:12.674284 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:12.856295 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:13.103309 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:13.107309 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:13.363324 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:13.367324 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:13.583336 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:13.612338 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:13.824350 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:13.835351 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:14.087365 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:14.123367 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:14.398383 2016] [authz_core:error] [pid 4920:tid 1696] [client 127.0.0.1:49420] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:54:14.398383 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:54:14.604395 2016] [authz_core:error] [pid 4920:tid 1704] [client 127.0.0.1:49417] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:55:58.274324 2016] [authz_core:error] [pid 1816:tid 1704] [client 127.0.0.1:49464] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:55:58.802354 2016] [authz_core:error] [pid 1816:tid 1704] [client 127.0.0.1:49464] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Fri Jun 10 18:56:00.171433 2016] [authz_core:error] [pid 1816:tid 1704] [client 127.0.0.1:49464] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Fri Jun 10 18:56:00.685462 2016] [authz_core:error] [pid 1816:tid 1704] [client 127.0.0.1:49464] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://nbt.cn/
+[Tue Aug 16 18:36:58.136476 2016] [authz_core:error] [pid 5016:tid 1708] [client 127.0.0.1:51185] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Tue Aug 16 18:36:58.226476 2016] [authz_core:error] [pid 5016:tid 1708] [client 127.0.0.1:51185] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Wed Aug 17 10:42:27.775880 2016] [authz_core:error] [pid 3112:tid 1704] [client ::1:50577] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/
+[Wed Aug 17 10:42:28.402916 2016] [authz_core:error] [pid 3112:tid 1704] [client ::1:50577] AH01630: client denied by server configuration: F:/code/nbt/frontend/web/favicon.ico, referer: http://localhost/

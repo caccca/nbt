@@ -6,7 +6,7 @@ use frontend\assets\AppAsset;
 use dmstr\web\AdminLteAsset;
 
 AppAsset::register($this);
-AdminLteAsset::register($this);
+// AdminLteAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
