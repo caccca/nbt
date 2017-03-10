@@ -1,4 +1,4 @@
-
+```
 <VirtualHost *:80>
     ServerAdmin caiqinglinbeihai@gmail.com
     DocumentRoot "/var/www/html/nbt/frontend/web/"
@@ -17,4 +17,4 @@
         </IfModule>        
     </Directory>
 </VirtualHost>
-    
+```
