@@ -1,4 +1,5 @@
 # for frontend
+```
 server {
     charset utf-8;
     client_max_body_size 128M;
@@ -25,8 +26,9 @@ server {
         deny all;
     }
 }
-
+```
 # for backend
+```
 server {
     # ...other settings...
     listen 81;
@@ -34,3 +36,4 @@ server {
     root /path/to/digpage.com/backend/web;
     # ...other settings...
 }
+```
